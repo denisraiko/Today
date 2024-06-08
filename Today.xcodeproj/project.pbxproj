@@ -13,6 +13,7 @@
 		3B36DE672C148DA600ED3EBB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3B36DE662C148DA600ED3EBB /* Base */; };
 		3B36DE692C148DA800ED3EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B36DE682C148DA800ED3EBB /* Assets.xcassets */; };
 		3B36DE6C2C148DA800ED3EBB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3B36DE6B2C148DA800ED3EBB /* Base */; };
+		3B36DE752C1493AE00ED3EBB /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B36DE742C1493AE00ED3EBB /* Reminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3B36DE682C148DA800ED3EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B36DE6B2C148DA800ED3EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B36DE6D2C148DA800ED3EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B36DE742C1493AE00ED3EBB /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,22 @@
 			children = (
 				3B36DE5F2C148DA600ED3EBB /* AppDelegate.swift */,
 				3B36DE612C148DA600ED3EBB /* SceneDelegate.swift */,
-				3B36DE632C148DA600ED3EBB /* ViewController.swift */,
+				3B36DE732C14938E00ED3EBB /* Models */,
 				3B36DE652C148DA600ED3EBB /* Main.storyboard */,
 				3B36DE682C148DA800ED3EBB /* Assets.xcassets */,
 				3B36DE6A2C148DA800ED3EBB /* LaunchScreen.storyboard */,
 				3B36DE6D2C148DA800ED3EBB /* Info.plist */,
 			);
 			path = Today;
+			sourceTree = "<group>";
+		};
+		3B36DE732C14938E00ED3EBB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B36DE632C148DA600ED3EBB /* ViewController.swift */,
+				3B36DE742C1493AE00ED3EBB /* Reminder.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				3B36DE642C148DA600ED3EBB /* ViewController.swift in Sources */,
 				3B36DE602C148DA600ED3EBB /* AppDelegate.swift in Sources */,
 				3B36DE622C148DA600ED3EBB /* SceneDelegate.swift in Sources */,
+				3B36DE752C1493AE00ED3EBB /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
